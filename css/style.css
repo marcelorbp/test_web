@@ -1,0 +1,38 @@
+*{margin: 0}
+
+html, body{
+	height: 100%;
+}
+
+#wrapper{
+	float: left;
+	width: 100%;
+	min-height: 100%;
+	padding-bottom: 100px;
+	box-sizing: border-box;
+}
+header{
+	float: left;
+	width: 100%;
+	height: 60px;
+	background: skyblue;
+}
+main{
+	float: left;
+	width: 100%;
+	height: auto;
+	background: lightsalmon;
+	padding: 20px;
+	box-sizing: border-box;
+}
+section{
+	text-align: justify;
+}
+footer{
+	float: left;
+	width: 100%;
+	height: 100px;
+	background: thistle;
+	text-align: center;
+	margin-top: -100px;
+}
