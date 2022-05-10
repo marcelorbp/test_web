@@ -16,7 +16,8 @@ pipeline {
                echo 'push repor to remote host'
             }
         }
-        
+       
+        stage('connect') {
         steps {
           sshagent(credentials: ['webfiles']) {
             sh '''
@@ -26,7 +27,7 @@ pipeline {
             '''
           }
       }
-    
+    }
   
         stage('3') {
             steps {
