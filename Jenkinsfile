@@ -20,7 +20,7 @@ pipeline {
         stage('connect') {
         steps {
           sshagent(credentials: ['webfiles']) {
-            sh 'sudo git -C /var/www/html pull'
+            sh 'ping ec2-34-245-42-100'
             
           }
       }
